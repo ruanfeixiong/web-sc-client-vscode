@@ -1,0 +1,14 @@
+.bordersurvey {
+    border: 1px solid #46829b;
+    border-radius: 20px;
+    height: 100%;
+    background: linear-gradient(rgba(90, 206, 255, 0.2), rgba(90, 206, 255, 0.3));
+}
+
+[data-role='border-survey-click'] {
+    cursor: pointer;
+}
+
+[data-role='border-survey-click']:hover {
+    background: rgba(90, 206, 255, 0.1);
+}

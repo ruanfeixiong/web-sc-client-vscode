@@ -1,0 +1,30 @@
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden
+}
+
+body * {
+    font-family: "Microsoft YaHei", "iconfont", "FontAwesome" !important;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+        user-select: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

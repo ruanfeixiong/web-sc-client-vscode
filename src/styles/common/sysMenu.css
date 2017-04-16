@@ -1,0 +1,42 @@
+.sysMenu {
+    height: 1850px;
+    width: 209px;
+    border: solid #46879c 2px;
+    border-left: 0px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 3px 3px 5px #46879c inset;
+    z-index: 20;
+    outline: none;
+    /*display: none;  */
+}
+
+.sysMenu li {
+    width: 198px;
+    height: 160px;
+    text-decoration: none;
+}
+
+.sysMenu li a {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 209px;
+    height: 155px;
+}
+
+.sysMenu li span {
+    color: #30b0e5;
+    font-size: 30px;
+}
+.sysMenu li a:hover span {
+    color: white;
+}
+
+ .linkImg {
+    width: 55px;
+    height: 55px;
+    margin-top: 22px;
+}
+

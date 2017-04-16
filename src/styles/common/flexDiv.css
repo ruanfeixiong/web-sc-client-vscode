@@ -1,0 +1,10 @@
+.flexRowCenter{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.flexColCenter{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}

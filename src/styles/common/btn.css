@@ -1,0 +1,55 @@
+.btn {
+    width: 70PX;
+    height: 64px;
+    line-height: 64px;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 26px;
+    border: 0px;
+    outline: none;
+}
+
+.popWinClose {
+    composes: btn;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.popWinClose:hover {
+    background-color: crimson;
+}
+
+.appClose {
+    composes: btn;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    background: url('../../images/App/关闭.png');
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.appClose:hover {
+    background: url('../../images/App/关闭_悬浮.png');
+}
+
+.appMini {
+    composes: appClose;
+    background: url('../../images/App/最小化.png');
+    position: absolute;
+    top: 64px;
+    right: 150px;
+}
+.appMini:hover{
+    background: url('../../images/App/最小化_悬浮.png');
+
+}

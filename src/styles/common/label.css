@@ -1,0 +1,27 @@
+.whiteNormalText26 {
+    font-size: 26px;
+    color: white
+}
+
+.yellowBoldText68 {
+    font-size: 68px;
+    color: #eeca21;
+    font-weight: bold;
+}
+
+.yellowBoldText90 {
+    composes: yellowBoldText68;
+    font-size: 90px;
+}
+.baseBlueNormalText26{
+    font-size: 26px;
+    color: #30b0e5;
+}
+.lightGreenNormalText48{
+    color: #53d769;
+    font-size: 48px;
+}
+.lightRedNormalText48{
+    color: #f35857;
+    font-size: 48px;
+}

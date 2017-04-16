@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "msjsdiag.debugger-for-chrome",
+        "dbaeumer.vscode-eslint",
+        "xabikos.ReactSnippets",
+        "fknop.vscode-npm",
+        "christian-kohler.npm-intellisense",
+        "anseki.vscode-color",
+        "michelemelluso.code-beautifier",
+        "clinyong.vscode-css-modules",
+        "pranaygp.vscode-css-peek",
+        "xabikos.JavaScriptSnippets",
+        "joshpeng.sublime-babel-vscode",
+        "robertohuertasm.vscode-icons"
+    ]
+}
